@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+ font-weight: bold;   
+}
+
+.subtitle{
+color: gray;
+}
+
+.whole{
+  height: 90vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.input{
+padding: 10px 60px;
+}
+.confirm{
+    background-color: rgb(45, 218, 91);
+    color: white;
+    border-radius: 8px;
+    padding: 20px 50px;
+    border:none;
+}
+
+.confirm:hover{
+    background-color: #218838;
+}
+
+.back{
+    color:  rgb(45, 218, 91);
+}
