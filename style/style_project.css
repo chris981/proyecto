@@ -151,12 +151,16 @@ color: var(--color-primary);
             right: 0;
             background: var(--color-secundary);
             box-shadow: 0 0 10px #0000001a;
-
         }
+        
          #product-detail:target {
             display: block;
         }
    #product-detail-shelf:target {
+            display: block;
+        }
+
+         #product-detail-shopping:target {
             display: block;
         }
           .product-detail-close {
@@ -240,3 +244,9 @@ color: var(--color-primary);
              grid-template-columns: repeat(5, 1fr); 
     gap: 20px;
         }
+
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+
