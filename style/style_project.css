@@ -32,6 +32,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .form-container {
@@ -65,6 +66,8 @@ nav a{
 .sign_in {     
   display: flex;
   align-items: center;
+  gap: 1rem;
+  margin-right: 2rem;
 }
 
 .title {
@@ -96,6 +99,7 @@ nav a{
     height: 2rem;
     font-size: var(--font-sm);
     padding: .6rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -135,3 +139,34 @@ color: var(--color-primary);
     display: grid;
     place-items: center;
 }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+figure {
+  margin: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.product {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+figcaption {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+} 
+
+
