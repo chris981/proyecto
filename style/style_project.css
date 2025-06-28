@@ -52,7 +52,7 @@ header{
         display: block;
     }
 }
-nav{
+.navigator{
  font-size: var(--font-md);
     font-weight: 500;
     display: flex;
@@ -60,7 +60,7 @@ nav{
     align-items: center;
 }
 
-nav a{
+.navigator a{
     text-decoration: none;
     color: var(--color-text-secundary);
 }
@@ -69,6 +69,7 @@ nav a{
   align-items: center;
   gap: 1rem;
   margin-right: 2rem;
+  cursor: pointer;
 }
 
 .title {
@@ -250,7 +251,8 @@ color: var(--color-primary);
             display: flex;
             justify-content: center;
         }
- .dropdown {
+
+        .dropdown {
             position: absolute;
             top: 100%;
             right: 0;
@@ -274,11 +276,9 @@ color: var(--color-primary);
             background-color: #f0f0f0;
         }
 
-        .user-menu:hover .dropdown {
+        .navigator:hover .dropdown {
             display: block;
         }
-
-
 ul{
     list-style-type: none;
 }
